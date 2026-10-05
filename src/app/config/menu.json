@@ -1,0 +1,40 @@
+[
+  {
+    "id": "inicio",
+    "label": "Inicio",
+    "icon": "⌂",
+    "to": "/"
+  },
+  {
+    "id": "maquileros",
+    "label": "Maquileros",
+    "icon": "M",
+    "to": "/maquileros"
+  },
+     {
+    "id": "clientes",
+    "label": "Clientes",
+    "icon": "C",
+    "to": "/clientes"
+  },
+  {
+    "id": "desplegable",
+    "label": "Prueba desplegable",
+    "icon": "P",  
+    "children": [
+      {
+        "id": "nivelII",
+        "label": "Nivel II",
+        "icon": "II",
+        "children": [
+          {
+            "id": "nivelIII",
+            "label": "Nivel III",
+            "icon": "III",
+            "to": "/desplegable"
+          }
+        ]
+      }
+    ]
+  }
+]
