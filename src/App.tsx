@@ -5,6 +5,7 @@ import { MaquilerosPage } from "./features/maquileros/presentation/pages/Maquile
 import { MainLayout } from "./app/layouts/MainLayout";
 import { HomePage } from "./app/pages/HomePage";
 import { ClientesPage } from "./features/clientes/presentation/pages/ClientesPage";
+import { ContratosPage } from "./features/contratos/presentation/pages/ContratosPage";
 
 export default function App() {
   const token = useAuthStore((state) => state.token);
@@ -24,7 +25,7 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="maquileros" element={<MaquilerosPage />} />
           <Route path="clientes" element={<ClientesPage />} />
-          <Route path="contratos" element={<ClientesPage />} />
+          <Route path="contratos" element={<ContratosPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

@@ -11,11 +11,17 @@
     "icon": "M",
     "to": "/maquileros"
   },
-     {
+  {
     "id": "clientes",
     "label": "Clientes",
     "icon": "C",
     "to": "/clientes"
+  },
+  {
+    "id": "contratos",
+    "label": "Contratos",
+    "icon": "C",
+    "to": "/contratos"
   },
   {
     "id": "desplegable",
