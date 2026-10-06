@@ -2,7 +2,7 @@ import { useAuthStore } from "../../features/auth/presentation/stores/auth.store
 import { Card } from "../../shared/components/Card";
 import { GiSewingMachine } from "react-icons/gi";
 import { FaBuildingUser } from "react-icons/fa6";
-import { GrDocumentText } from "react-icons/gr";
+import { GrCut } from "react-icons/gr";
 import { HiDocumentText } from "react-icons/hi2";
 
 export function HomePage() {
@@ -70,6 +70,16 @@ export function HomePage() {
           badge="Directorio de producción"
           title="Contratos"
           description="Administra los datos de los contratos. Consulta, agrega y actualiza su información."
+          actionText="Abrir directorio"
+          className="col-span-1"
+        />
+        <Card
+          to="/cortes"
+          color="fuchsia"
+          icon={GrCut}
+          badge="Directorio de producción"
+          title="Cortes"
+          description="Administra los datos de los cortes. Consulta, agrega y actualiza su información."
           actionText="Abrir directorio"
           className="col-span-1"
         />

@@ -2,6 +2,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { useAuthStore } from "./features/auth/presentation/stores/auth.store";
 import { LoginPage } from "./features/auth/presentation/pages/LoginPage";
 import { MaquilerosPage } from "./features/maquileros/presentation/pages/MaquilerosPage";
+import { CortesPage } from "./features/cortes/presentation/pages/CortesPage";
 import { MainLayout } from "./app/layouts/MainLayout";
 import { HomePage } from "./app/pages/HomePage";
 import { ClientesPage } from "./features/clientes/presentation/pages/ClientesPage";
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="maquileros" element={<MaquilerosPage />} />
           <Route path="clientes" element={<ClientesPage />} />
           <Route path="contratos" element={<ClientesPage />} />
+          <Route path="cortes" element={<CortesPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

@@ -66,6 +66,13 @@
     @apply mb-1.5 block text-sm font-medium text-slate-700;
   }
 
+  .form select {
+    @apply block w-full rounded-lg border border-slate-300 bg-white
+    px-3 py-2.5 text-sm text-slate-900 outline-none transition
+    focus:border-cyan-500 focus:ring-4 focus:ring-cyan-100
+    disabled:bg-slate-50 disabled:text-slate-400;
+  }
+
   .form input {
     @apply block w-full rounded-lg border border-slate-300 bg-white
       px-3 py-2.5 text-sm text-slate-900 outline-none transition
