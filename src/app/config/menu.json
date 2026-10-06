@@ -18,6 +18,12 @@
     "to": "/clientes"
   },
   {
+    "id": "cortes",
+    "label": "Cortes",
+    "icon": "C",
+    "to": "/cortes"
+  },
+  {
     "id": "contratos",
     "label": "Contratos",
     "icon": "C",
@@ -26,7 +32,7 @@
   {
     "id": "desplegable",
     "label": "Prueba desplegable",
-    "icon": "P",  
+    "icon": "P",
     "children": [
       {
         "id": "nivelII",
