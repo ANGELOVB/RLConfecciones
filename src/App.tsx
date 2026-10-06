@@ -26,7 +26,6 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="maquileros" element={<MaquilerosPage />} />
           <Route path="clientes" element={<ClientesPage />} />
-          <Route path="contratos" element={<ClientesPage />} />
           <Route path="cortes" element={<CortesPage />} />
           <Route path="contratos" element={<ContratosPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
