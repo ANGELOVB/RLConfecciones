@@ -6,6 +6,7 @@ import { CortesPage } from "./features/cortes/presentation/pages/CortesPage";
 import { MainLayout } from "./app/layouts/MainLayout";
 import { HomePage } from "./app/pages/HomePage";
 import { ClientesPage } from "./features/clientes/presentation/pages/ClientesPage";
+import { ContratosPage } from "./features/contratos/presentation/pages/ContratosPage";
 
 export default function App() {
   const token = useAuthStore((state) => state.token);
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="clientes" element={<ClientesPage />} />
           <Route path="contratos" element={<ClientesPage />} />
           <Route path="cortes" element={<CortesPage />} />
+          <Route path="contratos" element={<ContratosPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>
       </Routes>

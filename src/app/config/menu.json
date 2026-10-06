@@ -11,7 +11,7 @@
     "icon": "M",
     "to": "/maquileros"
   },
-     {
+  {
     "id": "clientes",
     "label": "Clientes",
     "icon": "C",
@@ -24,9 +24,15 @@
     "to": "/cortes"
   },
   {
+    "id": "contratos",
+    "label": "Contratos",
+    "icon": "C",
+    "to": "/contratos"
+  },
+  {
     "id": "desplegable",
     "label": "Prueba desplegable",
-    "icon": "P",  
+    "icon": "P",
     "children": [
       {
         "id": "nivelII",
